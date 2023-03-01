@@ -15,7 +15,7 @@ public class MoneyTransferTest {
 
     @BeforeEach
     void setup() {
-        loginPage = open("http://localhost9999", LoginPage.class);
+        loginPage = open("http://localhost:9999", LoginPage.class);
     }
 
     @Test
